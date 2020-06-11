@@ -99,7 +99,6 @@ public class LinkedBinaryTree implements BinaryTree {
         }
     }
 
-
     @Override
     public void postOrderTraverse() {
         System.out.println("后序递归遍历");

@@ -16,7 +16,6 @@ public class Test {
         Node node7 = new Node(7, null, null);
         Node node6 = new Node(6, null, node7);
         Node node2 = new Node(2, node3, node6);
-
         Node node1 = new Node(1, node4, node2);
         BinaryTree bTree = new LinkedBinaryTree(node1);
         //判断二叉树是否为空

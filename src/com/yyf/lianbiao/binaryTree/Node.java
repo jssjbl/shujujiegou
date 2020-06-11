@@ -10,7 +10,6 @@ public class Node {
     private Object object;//节点值
     private Node leftNode;//左子树引用
     private Node rightNode;//右子树引用
-
     public Node(Object object) {
         this.object = object;
     }
